@@ -1,0 +1,76 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.navbar{
+position:relative;
+z-index:1;
+}
+
+.navbar-brand {
+font-family: mostserrat ;
+font-size: 32px;
+}
+
+section#box-profile{
+position: relative;
+width: 80%;
+min-height: 110px;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 500px;
+border-radius: 6px;
+background-color: #fff;
+box-shadow: 0 0 7px 0px rgba(136, 136,1360.2) 
+}
+
+**
+@media(min-width: 992px) {
+.navbar-brand, nav-link{
+color:#FFFFFF 
+!important;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, alpha) ;
+}
+.nav-link {
+text-transform:uppercase;
+margin-right: 30px;
+}
+.nav-link:hover{
+border-bottom: 3px solid #0B63DC;
+}
+
+.jumbotron{
+margin-top: +75px;
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.information{
+position: relative;
+display:inline-block;
+float: left;
+font-family: 'helvetica', sans-serif;
+top:45px ;
+margin-left: 30px;
+}
+.information .data{
+display: block;
+width:100% ;
+height:36px ;
+}
+.information p.field{
+font-weight: 600;
+width:150px ;
+color:#333
+}
+.information .data p{
+float:left;
